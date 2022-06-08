@@ -66,4 +66,4 @@ The Balanced Random Forest Classifier was used to create 100 decision trees to c
 
 # Summary
 
-
+In summary, the machine learning models had lower predictability percentages for the high risk loans. The model Easy Ensemble AdaBoost Classifier has the best predictability with an accuracy score of almost 93%. 
