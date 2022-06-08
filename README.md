@@ -44,8 +44,26 @@ The Undersampling method used Cluster Centroids to resample the data and reduce 
 <img width="424" alt="image" src="https://user-images.githubusercontent.com/99268646/172735240-a2a3630b-b722-469a-9977-85f568681c6f.png">
 
 
+**Combination (Over and Under) Sampling**
+
+The Combination method(over and under sampling) used SMOTEENN to remove outliers and resample the data to use in a logistic regression model.
+ * The model predicted the credit risk accurately at approximately 64% 
+ * The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted.
+ * The high-risk recall score for this model is fairly high at 0.70 and the low-risk recall score is average at 0.57. Compared to the previous techniques, this model is much better at identifying true high-risk loans.
+
+<img width="428" alt="image" src="https://user-images.githubusercontent.com/99268646/172735663-d02cebc5-5ce9-44f2-a0be-ad14246a2d1d.png">
 
 
+**Balanced Random Forest Classifier**
 
+The Balanced Random Forest Classifier was used to create 100 decision trees to classify the testing data.
+ * The model predicted the credit risk accurately at a respectable 79% of the time 
+ * The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted.
+ * The recall score for low-risk loans is very high at 0.91 and the recall score for high-risk loans is fairly high at 0.67. This shows that the classifier is good at predicting true positives for low-risk loans.
+
+<img width="428" alt="image" src="https://user-images.githubusercontent.com/99268646/172736158-117427b8-ed7a-4e9c-9d87-eecd0da47710.png">
+
+
+# Summary
 
 
